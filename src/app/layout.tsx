@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ClientPulse - AI Client Reports for Agencies",
-  description: "White-label client reporting dashboards with AI insights. $29 per month.",
+  title: "ClientPulse - AI-Powered Client Reports for Agencies",
+  description: "White-label client dashboards with AI-generated insights. From $29/mo — 10x cheaper than DashThis.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,9 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-background text-foreground">
+        {children}
+      </body>
     </html>
   );
 }
