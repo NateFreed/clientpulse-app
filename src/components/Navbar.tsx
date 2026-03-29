@@ -17,6 +17,7 @@ export default function Navbar() {
     { href: '/dashboards', label: 'Dashboards' },
     { href: '/clients', label: 'Clients' },
     { href: '/data', label: 'Data' },
+    { href: '/settings', label: 'Settings' },
   ];
 
   return (

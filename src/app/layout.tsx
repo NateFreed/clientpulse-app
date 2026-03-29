@@ -16,6 +16,18 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ClientPulse - AI-Powered Client Reports for Agencies",
   description: "White-label client dashboards with AI-generated insights. From $29/mo — 10x cheaper than DashThis.",
+  openGraph: {
+    title: "ClientPulse - AI Client Reports for Agencies",
+    description: "White-label dashboards with AI insights. From $29/mo.",
+    type: "website",
+    siteName: "ClientPulse",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ClientPulse - AI Client Reports for Agencies",
+    description: "White-label dashboards with AI insights. From $29/mo.",
+  },
+  keywords: ["client reporting", "agency dashboard", "white-label analytics", "AI insights", "client portal"],
 };
 
 export default function RootLayout({
